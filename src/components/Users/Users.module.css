@@ -1,0 +1,12 @@
+.block {
+    color: white;
+}
+
+.userPhoto {
+    width: 100px;
+}
+
+.selectedPage {
+    font-weight: bold;
+    color: red;
+}

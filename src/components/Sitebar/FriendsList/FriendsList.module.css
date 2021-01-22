@@ -1,0 +1,14 @@
+.list {
+    padding-left: 20px;
+    color: #f80000;
+}
+
+.item a {
+    color: #f80000;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    font-weight: bold;
+    color: #9f340a;
+}
