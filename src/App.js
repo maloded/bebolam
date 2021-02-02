@@ -39,12 +39,9 @@ class App extends React.Component {
                     <Route path='/settings' render={() => <Settings/>}/>
                     <Route path='/users' render={() => <UsersContainer/>}/>
                     <Route path='/login' render={() => <Login/>}/>
-                    <Route path='/sveta'
-                           render={() => <ProfilesFriends info={this.props.store.getState().sitebarPage.svetaInfo}/>}/>
-                    <Route path='/andrey'
-                           render={() => <ProfilesFriends info={this.props.store.getState().sitebarPage.andreyInfo}/>}/>
-                    <Route path='/dimych'
-                           render={() => <ProfilesFriends info={this.props.store.getState().sitebarPage.dimychInfo}/>}/>
+                    <Route path='/sveta' render={() => <ProfilesFriends info={this.props.store.getState().sitebarPage.svetaInfo}/>}/>
+                    <Route path='/andrey' render={() => <ProfilesFriends info={this.props.store.getState().sitebarPage.andreyInfo}/>}/>
+                    <Route path='/dimych' render={() => <ProfilesFriends info={this.props.store.getState().sitebarPage.dimychInfo}/>}/>
                 </div>
             </div>
         );
